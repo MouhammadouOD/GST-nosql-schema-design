@@ -1,0 +1,9 @@
+{
+  "_id": "usr_8841",
+  "name": "Amadou Diallo",
+  "email": "amadou.diallo@example.com",
+  "addresses": [
+    { "label": "home", "line1": "12 Rue de la Paix", "city": "Dakar", "country": "SN" }
+  ],
+  "createdAt": "2026-02-10T09:15:00Z"
+}

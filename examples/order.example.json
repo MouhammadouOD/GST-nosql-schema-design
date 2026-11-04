@@ -1,0 +1,11 @@
+{
+  "_id": "ord_559201",
+  "userId": "usr_8841",
+  "items": [
+    { "productId": "prd_3321", "name": "Wireless Mechanical Keyboard", "price": 79.99, "quantity": 1 },
+    { "productId": "prd_1187", "name": "USB-C Hub", "price": 24.5, "quantity": 2 }
+  ],
+  "status": "paid",
+  "createdAt": "2026-03-02T14:22:10Z",
+  "deliveryAddress": { "line1": "12 Rue de la Paix", "city": "Dakar", "country": "SN" }
+}

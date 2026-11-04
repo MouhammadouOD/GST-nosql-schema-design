@@ -1,0 +1,9 @@
+{
+  "_id": "prd_3321",
+  "name": "Wireless Mechanical Keyboard",
+  "description": "Compact 75% layout, hot-swappable switches, USB-C.",
+  "category": "electronics/accessories",
+  "price": 79.99,
+  "tags": ["keyboard", "wireless", "mechanical", "usb-c"],
+  "stockCount": 142
+}

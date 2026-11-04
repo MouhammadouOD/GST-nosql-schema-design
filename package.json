@@ -1,0 +1,12 @@
+{
+  "name": "nosql-schema-design",
+  "version": "1.0.0",
+  "description": "NoSQL database design for an e-commerce app, initial and refactored, with validated example documents",
+  "scripts": {
+    "test": "node test/validate.test.js"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  }
+}

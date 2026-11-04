@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Sales Summary (salesSummary collection — denormalized, refactored design)",
+  "description": "Pre-aggregated daily sales data per product, written by a change-stream-driven aggregation job rather than derived at query time from the raw orders collection.",
+  "type": "object",
+  "required": ["_id", "date", "productId", "category", "unitsSold", "revenue"],
+  "properties": {
+    "_id": { "type": "string" },
+    "date": { "type": "string", "format": "date" },
+    "productId": { "type": "string" },
+    "category": { "type": "string" },
+    "unitsSold": { "type": "integer", "minimum": 0 },
+    "revenue": { "type": "number", "minimum": 0 }
+  },
+  "additionalProperties": false
+}
